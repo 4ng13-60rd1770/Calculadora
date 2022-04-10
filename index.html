@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title> Calculadora</title>
+</head>
+
+<body>
+
+  <div class="contenedor">
+    <div class="parts header">
+      <div class="header-left">
+        <p class="logo">Calc</p>
+      </div>
+
+
+      <div class="toggle-section">
+        <div class="theme">
+          <p>THEME</p>
+        </div>
+        <div class="toggle-numbers">
+          <span onclick="themeChanger(1)">1</span>
+          <span onclick="themeChanger(2)">2</span>
+          <span onclick="themeChanger(3)">3</span>
+          <div class="toggle">
+            <div class="toggle-btn">
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="parts calc-screen" >
+      <p id="screen"></p>
+    </div>
+    <!-- Botones -->
+    <div class="parts keypad">
+      <div class="1 btn">
+        1
+      </div>
+      <div class="2 btn">
+        2
+      </div>
+      <div class="3 btn">
+        3
+      </div>
+      <div class="del btn">
+        DEL
+      </div>
+      <div class="4 btn">
+        4
+      </div>
+      <div class="5 btn">
+        5
+      </div>
+      <div class="6 btn">
+        6
+      </div>
+      <div class="add btn">
+        +
+      </div>
+      <div class="7 btn">
+        7
+      </div>
+      <div class="8 btn">
+        8
+      </div>
+      <div class="9 btn">
+        9
+      </div>
+      <div class="subtraccion btn">
+        -
+      </div>
+      <div class="punto btn">
+        .
+      </div>
+      <div class="0 btn">
+        0
+      </div>
+
+
+      <div class="dividir btn">
+        /
+      </div>
+      <div class="multiplicar btn">
+        *
+      </div>
+
+      <div class="reset btn">
+        RESET
+      </div>
+      <div class="igual btn">
+        =
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+  </body>
+  </html>
